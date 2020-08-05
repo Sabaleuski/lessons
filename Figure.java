@@ -1,7 +1,6 @@
-package GeometricFigure;
+package figure;
 
 interface Figure {
     double getArea();
-    double getCircumferens();
     double getPerimeter();
 }

@@ -1,4 +1,5 @@
-package GeometricFigure;
+package figure;
+
 
 class Square implements Figure {
     double side;
@@ -11,12 +12,8 @@ class Square implements Figure {
     }
 
     @Override
-    public double getCircumferens() {
-        return 0;
-    }
-
-    @Override
     public double getPerimeter() {
         return 4*side;
     }
 }
+
